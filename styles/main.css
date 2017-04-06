@@ -34,6 +34,10 @@ body {
   margin-bottom: 40px;
 }
 
+#buttons {
+  display: inline-block;
+}
+
 #refresh, #tweet {
   height: 30px;
   width: 110px;
@@ -46,4 +50,7 @@ body {
   color: #dddddd;
   line-height: 30px;
   text-align: center;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
 }
