@@ -20,4 +20,15 @@ body {
   border-radius: 10px;
   margin-top: 40px;
   max-width: 80%;
+  min-width: 50%
+}
+
+#quote {
+  text-align: center;
+}
+
+#refresh {
+  background-color: black;
+  width: 120px;
+  color: white;
 }

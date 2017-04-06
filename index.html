@@ -12,12 +12,15 @@
     </div>
 
     <div id="message"><p>Press the button to refresh with a new quote.</p></div>
-    
+
     <div id="generator">
       <div id="quote"></div>
       <div id="translation"></div>
       <div id="buttons">
-        <button type="button" id="refresh">NEW QUOTE</button>
+        <form>
+        <div id="refresh">NEW QUOTE</div>
+        <input type="button" id="btn2" onclick="generateNewQuote" value="refresh"></input>
+      </form>
       </div>
     </div>
 

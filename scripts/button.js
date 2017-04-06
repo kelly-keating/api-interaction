@@ -7,8 +7,10 @@ var btn = document.getElementById("refresh");
 
 //console.log(btn);
 
-//document.addEventListener('DOMContentLoaded', generateNewQuote);
+//document.addEventListener('click', generateNewQuote);
 btn.addEventListener('click', generateNewQuote());
+document.getElementById("refresh").addEventListener('click', generateNewQuote);
+document.getElementById("btn2").addEventListener('click', generateNewQuote);
 
 function generateNewQuote(){
   var xhr = new XMLHttpRequest();
@@ -20,7 +22,7 @@ function generateNewQuote(){
   }
 
   xhr.send();
-  console.log(json);
+  //console.log(json);
   quote.innerHTML = json.source;
   translation.innerHTML = json.translation;
 }
