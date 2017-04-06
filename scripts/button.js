@@ -5,12 +5,8 @@ var quote = document.getElementById("quote");
 var translation = document.getElementById("translation");
 var btn = document.getElementById("refresh");
 
-//console.log(btn);
-
-//document.addEventListener('click', generateNewQuote);
-btn.addEventListener('click', generateNewQuote());
-document.getElementById("refresh").addEventListener('click', generateNewQuote);
-document.getElementById("btn2").addEventListener('click', generateNewQuote);
+document.addEventListener('DOMContentLoaded', generateNewQuote);
+btn.addEventListener('click', generateNewQuote);
 
 function generateNewQuote(){
   var xhr = new XMLHttpRequest();
@@ -22,7 +18,7 @@ function generateNewQuote(){
   }
 
   xhr.send();
-  //console.log(json);
+
   quote.innerHTML = json.source;
   translation.innerHTML = json.translation;
 }
