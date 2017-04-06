@@ -23,13 +23,15 @@ console.log(xmlDocument.childNodes['0'].textContent);
 
 
 
+CHANGE XHR INTO READABLE IF JSON
 
 var json = JSON.parse(demo);
-console.log(json);
+console.console.log();(json);
 
 
 
 
+AJAX STUFF
 
 $('#action-button').click(function() {
    $.ajax({
