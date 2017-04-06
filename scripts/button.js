@@ -5,7 +5,7 @@ var quote = document.getElementById("quote");
 var translation = document.getElementById("translation");
 var btn = document.getElementById("refresh");
 
-console.log(btn);
+//console.log(btn);
 
 //document.addEventListener('DOMContentLoaded', generateNewQuote);
 btn.addEventListener('click', generateNewQuote());
