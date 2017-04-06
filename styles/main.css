@@ -1,6 +1,11 @@
 @font-face {
-   font-family: 'myPacifico' ;
-   src: url('FONTS/pacifico/Pacifico.ttf');
+   font-family: 'myBuffalo' ;
+   src: url('FONTS/BuffaloScript-Regular.otf');
+}
+
+@font-face {
+   font-family: 'myWestfalia' ;
+   src: url('FONTS/Westfalia-Regular.otf');
 }
 
 html, body {
@@ -18,7 +23,7 @@ body {
 }
 
 #title {
-  font-family: 'myPacifico', 'Open Sans', sans-serif;
+  font-family: 'myWestfalia', 'Open Sans', sans-serif;
   font-size: 1.5em;
 }
 
@@ -35,6 +40,7 @@ body {
 }
 
 #quote {
+  font-family: 'myBuffalo', 'Open Sans', sans-serif;
   font-size: 3em;
   margin-bottom: 25px;
 }
@@ -46,6 +52,8 @@ body {
 
 #buttons {
   display: inline-block;
+  font-size: 20px;
+  font-family: 'myWestfalia', 'Open Sans', sans-serif;
 }
 
 #refresh, #tweet {
