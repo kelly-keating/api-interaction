@@ -34,7 +34,7 @@ body {
   margin-bottom: 40px;
 }
 
-#refresh {
+#refresh, #tweet {
   height: 30px;
   width: 110px;
   border-width: 2px;
